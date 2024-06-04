@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerimg {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+      url("./assets/Image/forest.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .headerimg2 {
+    background: url("./assets/Image/forest.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
